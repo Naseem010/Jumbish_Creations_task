@@ -1,0 +1,28 @@
+<%- include("header") -%>
+<div class="items-headline">
+  <h2>List of Your Orders</h2>
+  <p>Products eligible for Home delivery</p>
+</div>
+
+<div class="item">
+  <div class="img">
+    <img class="image"src="images/painting1.jpg" alt="">
+    <input type="checkbox">
+  </div>
+  <div class="img">
+    <img class="image"src="images/painting2.jpg" alt="">
+    <input type="checkbox">
+  </div>
+<div class="img">
+  <img class="image"src="images/painting3.jpg" alt="">
+  <input type="checkbox">
+</div>
+    <div class="img">
+      <img class="image"src="images/painting4.jpg" alt="">
+      <input type="checkbox">
+   </div>
+   </div>
+   <form  action="/checkout" method="post">
+     <button class="buynow" type="submit" name="button">Buy Now</button>
+   </form>
+<%- include("footer") -%>
